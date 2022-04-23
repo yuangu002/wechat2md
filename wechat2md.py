@@ -9,7 +9,7 @@ from datetime import date
 from timeit import default_timer as timer
 import os
 import requests
-import uuid
+import urllib.parse
 
 def print_with_space(s):
     print()
@@ -95,18 +95,21 @@ if __name__ == "__main__":
                 continue
             href = div['data-src']
             res = requests.get(href.strip())
+
+            pic_name = urllib.parse.quote(href.strip(), safe='') + '.png'
             if not os.path.isdir("./assets"):
                 os.mkdir('assets')
-            pic_name = uuid.uuid4().hex + '.png'
-            pic = open('./assets/' + pic_name, "wb")
-            pic.write(res.content)
-            pic.close()
+            if not os.path.exists("./assets/" + pic_name):
+                pic = open('./assets/' + pic_name, "wb")
+                pic.write(res.content)
+                pic.close()
+                print("Image saved: " + pic_name)
+            else:
+                print("Same image already saved.")
 
-            path_name = '"/assets/' + pic_name + '"'
-            print("Image saved: " + path_name)
-
-            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name + '></center>\n\n'
-
+            path_name_str = '"/assets/' + pic_name + '"'
+            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '></center>\n\n'
+            
         else:
             if not text:
                 continue
