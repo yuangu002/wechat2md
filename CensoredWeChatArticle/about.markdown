@@ -1,10 +1,15 @@
-# Censored WeChat Articles
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 This blog is a collection of WeChat Official Account articles which have high risk of being censored by either Tencent or the Cyberspace Administration of China. All WeChat articles are converted into Markdown files and organized in a Jekyll-style post layout. You can either fork this repo to maintain your own collection or open a PR/issue if you want it to be merged.
 
 ## Guideline
-I will only accept articles that analyze facts, share information/knowledge, or present what is happening.
-I will **NOT** accept any politcally opinionated article.
-I will **certainly NOT** accept articles/resources which have not been originally posted on WeChat or the Internet within GFW.
+I will only accept articles that analyze facts, share information/knowledge, or present what is happening.<br>
+I will **NOT** accept any politcally opinionated article.<br>
+I will **certainly NOT** accept articles/resources which have not been originally posted on WeChat or the Internet within GFW.<br>
 
 ## Contributing
 Any contribution is welcomed if it follows the above guideline.
