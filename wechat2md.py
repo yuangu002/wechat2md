@@ -8,6 +8,8 @@ import validators
 from datetime import date
 from timeit import default_timer as timer
 import os
+import requests
+import uuid
 
 def print_with_space(s):
     print()
@@ -40,6 +42,8 @@ if __name__ == "__main__":
 
     page = urlopen(article)
     html_res = page.read().decode("utf-8")
+
+    print_with_space("Article fetched. Convertion begin...")
 
     title = None
     author = None
@@ -87,8 +91,22 @@ if __name__ == "__main__":
                 text = '> ' + text
             md_content = md_content + text + '\n\n'
         elif div.name == 'img':
-            pass
-            # print("there is a pic")
+            if not div.has_attr('data-src'):
+                continue
+            href = div['data-src']
+            res = requests.get(href.strip())
+            if not os.path.isdir("./assets"):
+                os.mkdir('assets')
+            pic_name = uuid.uuid4().hex + '.png'
+            pic = open('./assets/' + pic_name, "wb")
+            pic.write(res.content)
+            pic.close()
+
+            path_name = '"/assets/' + pic_name + '"'
+            print("Image saved: " + path_name)
+
+            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name + '></center>\n\n'
+
         else:
             if not text:
                 continue

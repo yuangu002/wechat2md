@@ -8,17 +8,24 @@ This repo provides a generic tool that converts articles from WeChat Official Ac
 
 ## Usage
 Download the repo:
+
 ```git clone https://github.com/yuangu002/wechat2md.git```
 
 Install required packages:
+
 ```pip install -r requirements.txt```
 
+Run the script:
+
+```python3 wechat2md.py mp.weixin.qq.com/s/foobar foobar```
+
+Replace `mp.weixin.qq.com/s/foobar` with a Wechat article's link. Once you see the success message, `foobar.markdown` can be found under `/out`.
+
+## Note
 The command line accepts exactly two arguments.<br>
 The first is the WeChat article's URL. HTTP prefix (https:// or http://) is optional<br>
-"The second is filename for the output Markdown file. Markdown suffix (.md or .markdown) is optional<br>
-Example: `python3 wechat2md.py mp.weixin.qq.com/s/foobar foobar`
-
-The article must be a valid URL on the web server of WOAP (`mp.weixin.qq.com`).
+The second is filename for the output Markdown file. Markdown suffix (.md or .markdown) is optional<br>
+The article must be a valid URL on the web server of WOAP (`mp.weixin.qq.com`).<br>
 
 ## Generate a Jekyll-style blog
 This Python script is a generic converter, which does not assume a specific format of Markdown. If you would like to organize all articles into a Jekyll-style blog, you can see my example [here](https://github.com/yuangu002/yuangu002.github.io).
