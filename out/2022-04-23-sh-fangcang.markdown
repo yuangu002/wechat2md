@@ -31,7 +31,7 @@ pd 03:28
 吃的话营养肯定是够的。我们这边是管饱，你可以申请加餐。上午是七点到七点半，中午是十一点半，下午是六点。我们不用统一领，每次有个推车，会把所有的饭挨家挨户送，真的这点做得很好，你睡觉了他都会送到你面前，他会把筷子和饭一定会给到你。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5WIUAsoAmplF2Rm52CRCDeA61D8R5sm2I7DduymMGeiambEs61XMJtZQ%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5WIUAsoAmplF2Rm52CRCDeA61D8R5sm2I7DduymMGeiambEs61XMJtZQ%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 （pd所在的凌空方舱）
 
@@ -54,7 +54,7 @@ hayami 09:44
 那这样挺好的，我们这边只能用那种专门的临时搭建的。所以对于老人，特别是一些推着轮椅的中风老人，还有那种 70 岁以上的，一来台阶完全上不去，二来上去了也是根本是完全无法蹲下来的。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5d9Bp6c0HiaCM9LCTnkia2VLzmianxLKAMdBAHQYB8tMBxoF8guRsiboiaHg%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5d9Bp6c0HiaCM9LCTnkia2VLzmianxLKAMdBAHQYB8tMBxoF8guRsiboiaHg%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 昨天的时候发生一个事儿。我们都是男女分舱，然后我就在女舱，听到有人说女舱有一个男的在原地大小便。周围的女生就很激动，去找方舱理论了。然后我当时听到这个我也特别生气，你可以把它简单的概括为是一个男的在女舱原地大小便。所以我就过去了解一下。了解情况知道细节之后，我就更生气了，而且还挺难过的。
 
@@ -63,7 +63,7 @@ hayami 09:44
 因为那里的洗手间有台阶，他那个轮椅肯定上不去。其次中风是蹲不下的，那个洗手间就是蹲坑，他根本没法用。没法用之后他就去理论，也没有什么用。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5YibRqeMcBFZVBfo4XiaGQw3FH4oaNTwS9ElJzicAZXCZOrbnZVfyZtNGw%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5YibRqeMcBFZVBfo4XiaGQw3FH4oaNTwS9ElJzicAZXCZOrbnZVfyZtNGw%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 （刚来第一天的早上，就看到老人在护士台说着什么）
 
@@ -88,7 +88,7 @@ pd 13:03
 还有一件事情。是他经常会用右手去点左手，他就说我打110，他想要打电话。真的非常让人担心。而且他一进来的时候实际上没有这些情况，就像一个正常的老人。结果因为没有药，眼睛的血压非常非常高，导致突然变成一个失明的状态了，完全不像一个神志清楚的人了。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr54u9YAgmSSDQbEJQ8a5fOmDeibWKibI5AvdQPRDMVuolvK83vWngcd7mg%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr54u9YAgmSSDQbEJQ8a5fOmDeibWKibI5AvdQPRDMVuolvK83vWngcd7mg%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 （来方舱后双目失明、意识模糊，把手当手机在打电话的老人）
 
@@ -135,7 +135,7 @@ hayami 19:31
 pd 19:43我见到了一个非常重度残疾人。首先他不会说话，其次他不会走路，就一个轮椅，而且经常四肢在那抽搐，然后频繁地出现扭曲的表情。他还好有三个家人陪他一起来。而且他是个孤儿，实际上他的兄弟和妻子一直在照顾他。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5oNiap4HeUtEKh9mvvOx0pDicJ0KtY4LJFZ1drWJy7lIwkISQa42rYyLQ%2F640%3Fwx_fmt%3Dpng.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5oNiap4HeUtEKh9mvvOx0pDicJ0KtY4LJFZ1drWJy7lIwkISQa42rYyLQ%2F640%3Fwx_fmt%3Dpng.png"></center>
 
 hayami 20:13
 所以那三个人是阳的还是阴的？
@@ -162,7 +162,7 @@ hayami 20:52
 今天做志愿者的时候看到一个人，很老了，整个脸是皱巴巴的灰棕色，长满了老年斑。但是右脸上会发现有一块粉粉的肉色，大概有一个巴掌大，像新生婴儿的鲜嫩肌肤，看起来非常恐怖诡异。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr57ian5gqVx9VibwyeCFcibjONgy91Vh4hvfoqGDD3Biaox28PNb59wfZ9jA%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr57ian5gqVx9VibwyeCFcibjONgy91Vh4hvfoqGDD3Biaox28PNb59wfZ9jA%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 然后我就跟旁边的儿子聊，儿子说她妈妈已经 90 多岁了，从浦东到徐汇的龙华医院割了一个肿瘤。所以右脸那个肉色的疤痕，就是刚割完的肿瘤，然后割完之后可能感染上了阳性，所以就运到了这边来。他妈妈真的非常非常老了，你看到一个老人就行将就木了还在方舱里面。他儿子就很气愤，说这不是要早点把她送走么。然后他说打了很多电话，110什么 12345 什么，这全部都没有用，就非常非常的无力的那种感觉。这是我这边看到最老的老人。
 
@@ -174,21 +174,21 @@ pd 24:01
 你们我们这儿也有一个差不多 95 岁左右的老人，是和急性青光眼的那个阿姨一班车来的。那个老人公交车下来的时候完全走不了路，我从看到她的第一眼开始，没有看到她自己能够站起来，全程是躺着的。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5cciaFbY2jfichoqLKkpbW4TaWKdEdqrpkazib7SIC2Vl63KlCcH7pBecA%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5cciaFbY2jfichoqLKkpbW4TaWKdEdqrpkazib7SIC2Vl63KlCcH7pBecA%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 下车的时候儿子就很吃惊，说居委会跟他们讲去医院，说这里怎么不是医院，这个是方舱吗。后来排队进来看到床，这个时候儿子就说不行，我妈妈在这里动不了怎么办。
 
 然后那个护士一看说不对，我们也不敢接收，就说你回去，我们这里不是适合你妈妈这样子的情况。然后他们就坐公交车回去了，结果过了一个小时居然又出现了。说小区不让他们回去，小区不让他们回去，他们就只能来这。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5UsVcPgXKKV9BusNOeZg2ickCQMImRDgwOFlfGMaTyPsLjicyYafm3HCA%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5UsVcPgXKKV9BusNOeZg2ickCQMImRDgwOFlfGMaTyPsLjicyYafm3HCA%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 后来居然还真的在方舱住下来了。她没有自理能力，她儿子是一把屎一把尿帮她母亲去清理。第一天本来是想要抱她母亲上厕所，但方舱的厕所完全行不通。最后是儿子翻开被子，完全靠尿布、手帕、纸巾、各种毛巾去帮母亲做的清理。饭也是一口一口喂进去的，全部都是细致入微的打理。
 
 她儿子真的是非常了不起。在这样的情况下能够把他母亲给照料的，就是他母亲到现在也身上是没有味道的，我们经过都闻不到。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5P7l64RWMk0rKMzoVXKo3ua0CfJNcwB6bStPaK8urEuAZIYWvy8A2yw%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5P7l64RWMk0rKMzoVXKo3ua0CfJNcwB6bStPaK8urEuAZIYWvy8A2yw%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 hayami 26:52
 
@@ -232,7 +232,7 @@ pd 33:44
 第二点，是因为我有办公的这个需求，虽然不是很忙，但我就搭了一个办公室。这时候开始很多人就发现了方舱里也有正常的办公，他们就感觉回到了外面的世界，很多人都一直找我搭讪，特别是很多阿姨，然后我就突然就认识了很多阿姨。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5kmibElKLBAPWy0UD1Z1lHEz51lX7Ja1gKzUSicDxeyl7FDEHR3uHJ8eA%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5kmibElKLBAPWy0UD1Z1lHEz51lX7Ja1gKzUSicDxeyl7FDEHR3uHJ8eA%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 那些阿姨是过来认识我的，过来聊天的时候互相也会聊天。他们就跟我说这小伙子挺有意思的，然后都跟我介绍他们家儿子怎么样，他们家就小孩什么工作，然后问我，你做游戏的，做游戏好，他们就慢慢恢复正常了。你知道吗？他们有一种对于正常生活在这里也能触及到的一种感觉，然后就开始慢慢想办法让别的方面也正常起来。
 
@@ -397,7 +397,7 @@ pd 01:09:52
 据4月22日截稿为止，青光眼老人还是失明状态，妻子说「只要把命保住，已是菩萨保佑了」。
 
 
-<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5vDCT8PP4PfrjMjVCzFwrhiaAaYBN2sZFtxvOU0GR4jPWnlfricDHyfkw%2F640%3Fwx_fmt%3Djpeg.png"></center>
+<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="../assets/https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FHO8Hbvd8mbJZhDVostTGcRYeM31xeQr5vDCT8PP4PfrjMjVCzFwrhiaAaYBN2sZFtxvOU0GR4jPWnlfricDHyfkw%2F640%3Fwx_fmt%3Djpeg.png"></center>
 
 我不知道我们的生活什么时候会回到正轨。一开始说4月5日解封，后来是4月20日全面清零，但这些承诺都没有到来。我只知道，一些人再也回不到正轨了。
 

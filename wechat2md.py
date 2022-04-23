@@ -107,7 +107,7 @@ if __name__ == "__main__":
             else:
                 print("Same image already saved.")
 
-            path_name_str = '"/assets/' + pic_name + '"'
+            path_name_str = '"../assets/' + pic_name + '"'
             md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '></center>\n\n'
             
         else:
