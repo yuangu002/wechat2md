@@ -5,11 +5,12 @@ from bs4 import BeautifulSoup
 from mdutils.mdutils import MdUtils
 from mdutils import Html
 import validators
-from datetime import date
 from timeit import default_timer as timer
 import os
 import requests
-import urllib.parse
+import uuid
+
+DOWNLOAD_PIC = True
 
 def print_with_space(s):
     print()
@@ -29,6 +30,21 @@ if __name__ == "__main__":
 
     article = argvs[1]
     filename = argvs[2]
+
+    # Redownload pictures can be very time-consuming. Ask if needs to be regenerated.
+    if os.path.exists('out/' + filename + '.markdown') and os.path.exists('assets/' + filename):
+        regen_cmd = input("You have generated " + filename + " before.\n Do you want to regenerate it? (y/n): ")
+        print(regen_cmd)
+        if regen_cmd.lower() == 'y' or regen_cmd.lower() == 'yes':
+            # delete current article and assets
+            print_with_space("Delete current resources for regeneration...")
+            os.remove('out/' + filename + '.markdown')
+            dir = 'assets/' + filename
+            for img in os.listdir(dir):
+                os.remove(dir + '/' + img)
+        else:
+            sys.exit()
+
     if not article.startswith("https://") and not article.startswith("http://"):
         article = "https://" + article
 
@@ -57,6 +73,8 @@ if __name__ == "__main__":
     title_elem = article_div.find("h1", {"class": "rich_media_title", "id": "activity-name"})
     if title_elem is not None:
         title = title_elem.get_text().strip()
+    else:
+        print_with_space("[Warning]: Cannot find the article's title")
 
     # Metadata
     metadata = article_div.find("div", {"class": "rich_media_meta_list", "id": "meta_content"})
@@ -64,19 +82,20 @@ if __name__ == "__main__":
     author_elem = metadata.find("span", {"class": "rich_media_meta rich_media_meta_text"})
     if author_elem is not None:
         author = author_elem.get_text().strip()
+    else:
+        print_with_space("[Warning]: Cannot find the article's author")
 
     account_name_elem = metadata.find("strong", {"class": "profile_nickname"})
     if account_name_elem is not None:
         account_name = account_name_elem.get_text().strip()
+    else:
+        print_with_space("[Warning]: Cannot find the article's account name")
 
-    #TODO: extract datetime from metadata instead
-    date_time = str(date.today())
-    filename = date_time + '-' + filename + '.markdown'
+    #TODO: extract date from metadata
 
     # Add header
-    md_content = "---\nlayout: post\n"
-    md_content = md_content + "title: \""   + title + '"\n'
-    md_content = md_content + "author: \"" + author + ' | ' + account_name + '"\n---\n\n'
+    md_content = "# **" + title + "**\n"
+    md_content = md_content + "### " + author + " | " + account_name + "\n\n"
 
     # Content: make sure find the one in the body
     wrapper = article_div.find("div", {"class": "rich_media_wrp"})
@@ -91,24 +110,29 @@ if __name__ == "__main__":
                 text = '> ' + text
             md_content = md_content + text + '\n\n'
         elif div.name == 'img':
-            if not div.has_attr('data-src'):
+            if not DOWNLOAD_PIC or not div.has_attr('data-src'):
                 continue
             href = div['data-src']
             res = requests.get(href.strip())
 
-            pic_name = urllib.parse.quote(href.strip(), safe='') + '.png'
+            pic_name = uuid.uuid4().hex + '.png'
+            
+            # Create assets/ directory for the first time
             if not os.path.isdir("./assets"):
                 os.mkdir('assets')
-            if not os.path.exists("./assets/" + pic_name):
-                pic = open('./assets/' + pic_name, "wb")
-                pic.write(res.content)
-                pic.close()
-                print("Image saved: " + pic_name)
-            else:
-                print("Same image already saved.")
 
-            path_name_str = '"../assets/' + pic_name + '"'
-            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '></center>\n\n'
+            # Create asset directory for the article being converted
+            if not os.path.exists("assets/" + filename):
+                os.mkdir('assets/' + filename)
+
+            pic = open('./assets/' + filename + '/' + pic_name, "wb")
+            pic.write(res.content)
+            pic.close()
+            print("Image saved: " + pic_name)
+
+            path_name_str = '"../assets/' + filename + '/' + pic_name + '"'
+            # TODO: make the image size relative to the original and screensize
+            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '; width="400" height="400"></center>\n\n'
             
         else:
             if not text:
@@ -118,6 +142,9 @@ if __name__ == "__main__":
     
     if not os.path.isdir("./out"):
         os.mkdir("out")
+
+    # Add MD suffix
+    filename += '.markdown'
     with open("./out/" + filename, 'w') as f:
         f.write(md_content)
 
