@@ -10,7 +10,7 @@ import os
 import requests
 import uuid
 
-DOWNLOAD_PIC = True
+DOWNLOAD_PIC = False
 
 def print_with_space(s):
     print()
