@@ -1,22 +1,27 @@
-# Censored WeChat Articles
-This blog is a collection of WeChat Official Account articles which have high risk of being censored by either Tencent or the Cyberspace Administration of China. All WeChat articles are converted into Markdown files and organized in a Jekyll-style post layout. You can either fork this repo to maintain your own collection or open a PR/issue if you want it to be merged.
+# WeChat article to Markdown
 
-## Guideline
-I will only accept articles that analyze facts, share information/knowledge, or present what is happening.
-I will **NOT** accept any politcally opinionated article.
-I will **certainly NOT** accept articles/resources which have not been originally posted on WeChat or the Internet within GFW.
+## Background
+Tencent or the Cyberspace Administration of China may take down WeChat articles from the [web server](https://mp.weixin.qq.com). Therefore, a tool that scrapes (high-risk) WeChat articles and preserves for later reference is needed.
 
-## Contributing
-Any contribution is welcomed if it follows the above guideline.
+## Overview
+This repo provides a generic tool that converts articles from WeChat Official Account Platform (WOAP) to Markdown, the default format for static content on GitHub. The output Markdown file will be written under `/out` directory. All pictures will be saved under `/assets`. CSS styles (bold, italic, WOAP-specific formatting, etc.) are not preserved, so the original layout may be off.
 
-### WeChat articles
+## Usage
+Download the repo:
+```git clone https://github.com/yuangu002/wechat2md.git```
 
-### Other resources (video, picture, etc.)
+Install required packages:
+```pip install -r requirements.txt```
 
-### If you are not technical
-Open an issue and post the article/resource you want to preserve.
+The command line accepts exactly two arguments.<br>
+The first is the WeChat article's URL. HTTP prefix (https:// or http://) is optional<br>
+"The second is filename for the output Markdown file. Markdown suffix (.md or .markdown) is optional<br>
+Example: `python3 wechat2md.py mp.weixin.qq.com/s/foobar foobar`
+
+The article must be a valid URL on the web server of WOAP (`mp.weixin.qq.com`).
+
+## Generate a Jekyll-style blog
+This Python script is a generic converter, which does not assume a specific format of Markdown. If you would like to organize all articles into a Jekyll-style blog, you can see my example [here](https://github.com/yuangu002/yuangu002.github.io).
 
 ## Disclaimer
-I fully support the one-party leadership by the Communist Party of China (CPC) and the Four Cardinal Principles. However, I am also a steadfast advocate for free access of information (**not freedom of speech**). All efforts in this repo by no means target against any specific political clique. As an engineer, I only provide **a persistent storage infrastructure** and **a centralized presentation**, with the help of GitHub and Jekyll, for information that has been notoriously/indiscriminately censored by the GFW. I do **NOT** necessarily support any point of view implicated by any article.
-
-I am **NOT** interested in discussing politics on GitHub.
+I do **NOT** have an opinion on Chinese censorship/GFW. I am a steadfast supporter of CPC's leadership in China and its [Four Cardinal Principles](https://en.wikipedia.org/wiki/Four_Cardinal_Principles).

@@ -7,6 +7,7 @@ from mdutils import Html
 import validators
 from datetime import date
 from timeit import default_timer as timer
+import os
 
 def print_with_space(s):
     print()
@@ -94,7 +95,9 @@ if __name__ == "__main__":
             # default by using h3 for all header tags
             md_content = md_content + '\n### **' + text + '**\n\n'
     
-    with open("./CensoredWeChatArticle/_posts/" + filename, 'w') as f:
+    if not os.path.isdir("./out"):
+        os.mkdir("out")
+    with open("./out/" + filename, 'w') as f:
         f.write(md_content)
 
     end_time = timer()
