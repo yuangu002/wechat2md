@@ -67,8 +67,6 @@ if __name__ == "__main__":
     page = urlopen(article)
     html_res = page.read().decode("utf-8")
 
-    print_with_space("Article fetched. Conversion begin...")
-
     title = None
     author = None
     account_name = None
@@ -77,6 +75,11 @@ if __name__ == "__main__":
     bs = BeautifulSoup(html_res, "html.parser")
     article_div = bs.find("div", {"id": "js_article"})
 
+    if article_div is None:
+        print_with_space("Cannot find the article. Please make sure the URL is valid")
+        sys.exit()
+
+    print_with_space("Article fetched. Conversion begin...")
     # Title
     title_elem = article_div.find("h1", {"class": "rich_media_title", "id": "activity-name"})
     if title_elem is not None:
