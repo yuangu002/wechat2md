@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     # Add header
     md_content = "# **" + title + "**\n"
-    md_content = md_content + "### " + author + " | " + account_name + "\n\n"
+    md_content = md_content + "### " + str(author) + " | " + str(account_name) + "\n\n"
 
     # Content: make sure find the one in the body
     wrapper = article_div.find("div", {"class": "rich_media_wrp"})
