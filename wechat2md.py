@@ -10,7 +10,7 @@ import os
 import requests
 import uuid
 
-DOWNLOAD_PIC = False
+DOWNLOAD_PIC = True
 
 def print_with_space(s):
     print()
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
             path_name_str = '"../assets/' + filename + '/' + pic_name + '"'
             # TODO: make the image size relative to the original and screensize
-            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '; width="400" height="400"></center>\n\n'
+            md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '></center>\n\n'
             
         else:
             if not text:
