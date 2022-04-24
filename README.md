@@ -26,7 +26,7 @@ The CLI accepts exactly two arguments. The first is the WeChat article's URL. HT
 
 The article must be a valid URL on the web server of WOAP (`mp.weixin.qq.com`).
 
-The tool is designed to scrape texts; therefore, the `DOWNLOAD_PIC` flag should be used with care, especially dealing with articles with a lot of pictures or gifs, which could significantly lower the performance or explode your local storage. GitHub only supports storage of a single item within 100 MiB. Anything item larger than 100 MiB should be handled by [GitHub Large File Storage](https://git-lfs.github.com/).
+The tool is designed to scrape texts; therefore, the `DOWNLOAD_PIC` flag should be used with care, especially dealing with articles with a lot of pictures or gifs, which could significantly lower the performance or explode your local storage. GitHub only supports storage of a single item within 100 MiB. Any item larger than 100 MiB should be handled by [GitHub Large File Storage](https://git-lfs.github.com/).
 
 ## Generate a Jekyll-style blog
 This Python script is a generic converter, which does not assume a specific format of Markdown. If you would like to organize all articles into a Jekyll-style blog, you can see my example [here](https://github.com/yuangu002/yuangu002.github.io).

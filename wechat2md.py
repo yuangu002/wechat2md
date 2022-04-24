@@ -10,7 +10,9 @@ import os
 import requests
 import uuid
 
-DOWNLOAD_PIC = True
+DOWNLOAD_PIC = False
+SHORT_SUFFIX = '.md'
+SUFFIX = '.markdown'
 
 def print_with_space(s):
     print()
@@ -30,6 +32,12 @@ if __name__ == "__main__":
 
     article = argvs[1]
     filename = argvs[2]
+
+    # Remove suffix, if any
+    if filename.endswith('.md'):
+        filename = filename[:len(filename) - len(SHORT_SUFFIX)]
+    if filename.endswith('.markdown'):
+        filename = filename[:len(filename) - len(SUFFIX)]
 
     # Redownload pictures can be very time-consuming. Ask if needs to be regenerated.
     if os.path.exists('out/' + filename + '.markdown') and os.path.exists('assets/' + filename):
@@ -59,7 +67,7 @@ if __name__ == "__main__":
     page = urlopen(article)
     html_res = page.read().decode("utf-8")
 
-    print_with_space("Article fetched. Convertion begin...")
+    print_with_space("Article fetched. Conversion begin...")
 
     title = None
     author = None
@@ -131,7 +139,7 @@ if __name__ == "__main__":
             print("Image saved: " + pic_name)
 
             path_name_str = '"../assets/' + filename + '/' + pic_name + '"'
-            # TODO: make the image size relative to the original and screensize
+            # TODO: make the image size relative to the screensize
             md_content = md_content + '\n<center><img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src=' + path_name_str + '></center>\n\n'
             
         else:
@@ -151,3 +159,4 @@ if __name__ == "__main__":
     end_time = timer()
     print_with_space("Article converted: " + title)
     print("Success! Time taken: {0:.2f}s".format(end_time - start_time))
+    print("View the markdown file: " + os.path.abspath("./out/" + filename))
